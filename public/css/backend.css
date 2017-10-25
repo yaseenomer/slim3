@@ -1,0 +1,226 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 20, 2018, 3:35:25 AM
+    Author     : root
+*/
+
+body {
+   
+
+}
+
+.osaa {
+
+}
+.ss {
+    display: none
+}
+.carousel-inner > .item > img {
+    width: 100%;
+    height: 400px
+}
+
+.login {
+    width: 400px;
+    margin: 0px auto;
+    padding: 10px;
+}
+.login h3 {
+
+}
+.login input {
+    margin-bottom: 10px;
+
+
+}
+
+.carousel-caption {
+    bottom: 100px;
+    background: rgba(3,3,3,0.3);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/***************************************na bar dash  **************************************************/
+.navbar {
+    border-bottom:  1px solid #00c0ef ;
+    border-right: transparent;
+    border-radius: 0px;
+}
+.navbar-default {
+    background-color: #ffffff;
+    border-top: 3px;
+    border-top-color: #282f33;
+    border-color: #00c0ef;
+
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #5e5e5e;
+    background-color: #ecf0f5;
+}
+/**************************************.box-tools *********************************/
+
+.selectboxit-text {
+    float: right
+} 
+#sen {
+    display: none
+}
+
+/******************** side bar ******************************/
+
+
+/*
+.skin-blue .sidebar-menu > li:hover > a, .skin-blue .sidebar-menu > li.active > a{
+        border-right-color: #3c8dbc;
+}
+.skin-blue .sidebar-menu > li > a{
+        border-right: 3px solid transparent;
+}
+*/
+
+
+/******************box my**************/
+.no-margin-bottom {
+    margin-bottom: 0px !important;
+
+}
+.no-padding-right {
+    padding-right: 0px !important;
+}
+.float-left {
+    float: left !important;
+}
+.no-border-top {
+    border-top: 0px;
+    margin-bottom: 1px;
+    background-color: #ffffff
+}
+.clor {
+    position: absolute;
+    content: '';
+    top: 0px;
+    right: 0px
+}
+.fc-color-picker > li {
+    float: left;
+    font-size: 11px;
+    margin-right: 5px;
+    line-height: 5px;
+}
+.border-right-c {
+    border-right: 1px solid #f4f4f4
+}
+.description-text {
+    color: #00BCD4
+}
+.direct-chat-text {
+    border-radius: 5px;
+    position: relative;
+    padding: 5px 10px;
+    background: #ecf0f5;
+    border: 1px solid #ecf0f5;
+    margin: 11px 11px 11px 11px;
+    color: #444444
+}
+.direct-chat-info {
+    display: block;
+    margin-right: 50%;
+    margin-top: 15px;
+    font-size: 12px;
+}
+.direct-chat-contacts {
+    background: #ffffff;
+}
+.direct-chat-text:after, .direct-chat-text:before {
+    border-right-color: #ecf0f5;
+}
+.hr {
+     margin-top: 0px; 
+     margin-bottom: 0px; 
+    border: 0;
+    border-top: 1px solid #eee;
+}
+.box-header > .box-tools {
+    left: 10px;
+    
+}
+.overflow-x-auto {
+    overflow-x: auto
+}
+
+/****************************** datatable **********************/
+
+.table-hover > tbody > tr:hover {
+    background-color: rgba(156, 39, 176, 0.25);
+}
+.box {
+        direction: rtl
+}
+.content-header {
+    direction: rtl
+}
+.content {
+        direction: rtl
+}
+.cen i {
+   margin-right:  50%
+}
+.nav-tabs-custom {
+    box-shadow: 0 1px 1px #ffffff;
+}
+
+.nav {
+    padding-right: 0
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 12.5px;
+    border-right: 5px solid #eee;
+     border-left: 0
+}
+.timeline > li > .fa, .timeline > li > .glyphicon, .timeline > li > .ion {
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    line-height: 30px;
+    position: absolute;
+    color: #666;
+    background: #d2d6de;
+    border-radius: 50%;
+    text-align: center;
+    right: 8px;
+    top: 0;
+}
+.timeline:before {
+    right: 31px;
+}
+.timeline > li > .timeline-item {
+        margin-right: 60px;
+    margin-left: 15px;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.2);
+    
+}
+.xbox {
+     border-radius: 0px; 
+    background: #ffffff;
+    border-top: 1px solid #d2d6de;
+    border: 1px solid #00c0ef;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, -0.9);
+}
+.bt {
+    margin-top: 20px;
+    padding: 10px
+}
+   
