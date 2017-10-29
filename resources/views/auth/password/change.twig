@@ -13,11 +13,11 @@
                     <form action="{{ path_for('auth.password.change') }}" method="post" autocomplete="off">
 
 
-                        <div class="form-group {{ errors.password ? ' has-error' : '' }}">
+                        <div class="form-group {{ errors.old_password ? ' has-error' : '' }}">
                             <lable for="old_password">Old Password</lable>
                             <input type="password" name="old_password" id="old_password" class="form-control" >
-                            {% if errors.password %}
-                                <span><span class="help-block">{{ errors.password | first }}</span></span>
+                            {% if errors.old_password %}
+                                <span><span class="help-block">{{ errors.old_password | first }}</span></span>
                             {% endif %}
                         </div>
 
